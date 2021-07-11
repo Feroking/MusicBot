@@ -13,14 +13,46 @@
       "API_ID": {
         "description": "Get this value from my.telegram.org!",
         "value": ""
+      }
+      "BG_IMAGE": {
+      "description": "Background untuk bot musik kamu (Anda bisa menggunakan BG transparan) kalo ga ada biarin aja biar pake background buatan aku :v [IGNORE].",
+      "required": false,
+      "value": "https://telegra.ph/file/22e0ea77281d18134fe5a.png"
       },
       "API_HASH": {
         "description": "Get this value from my.telegram.org! ",
         "value": ""
       },
+      "PROJECT_NAME": {
+      "description": "Nama untuk project musik milikmu.",
+      "required": false,
+      "value": "MightyMusic Project"
+      },
+      "START_TEXT": {
+      "description": "Isi pesan bot project anda , untuk start pada bot",
+      "required": true
+      },
+      "PMPERMIT": {
+      "description": "ENABLE untuk menghidupkan, DISABLE untuk mematikan",
+      "required": false,
+      "value": "DISABLE"    
+      },
+      "OWNER_USERNAME": {
+      "description": "Masukin Username Pemilik!! Bukan Username Asisten tapi kalo misalnya pake 1 akun yg jadi pemilik skaligus asisten yah gkpapa lah (usernamenya tanpa menggunakan tanda @).",
+      "required": true    
+      },
       "SESSION_NAME": {
         "description": "Get this value only from https://replit.com/@Kartikpro/KINGBOT-MUSIC-STRING#main.py",
         "value": ""
+      },
+      "ASSISTANT_NAME": {
+      "description": "Nama assisten untuk bot musik mu tanpa menggunakan @.",
+      "required": true    
+      },
+      "ARQ_API_KEY": {
+      "description": "dapatkan dari @ARQRobot.",
+      "required": false,
+      "value": "VBPAOK-QOYCCP-DRLUBP-NALUFQ-ARQ"
       },
       "BOT_TOKEN": {
         "description": " Make a bot at http://telegram.dog/BotFather and get the token of your bot.",
